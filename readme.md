@@ -31,3 +31,7 @@ Puede ser utilizado con el desarrollo guiado por pruebas, y forma parte de la es
   - Se refiere al desacoplamiento de módulos de software.	
   - Las dependencias se deben de abstraer y que un módulo de alto nivel no deben depender de un módulo de bajo nivel, ambos dependerán de abstracciones. 	
   - No vamos a utilizar llamadas a métodos muy concretos, sino vamos a intentar implementar métodos más abstractos de forma genérica.
+  
+## Conceptos
+
+[Estructura](https://github.com/AAtlantica/SOLID/blob/main/conceptos.md)  
