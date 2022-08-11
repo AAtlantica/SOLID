@@ -6,7 +6,7 @@ En ingeniería de software, SOLID (Single responsibility, Open-closed, Liskov su
 Los principios SOLID son guías que pueden ser aplicadas en el desarrollo de software para eliminar malos diseños provocando que el programador tenga que refactorizar el código fuente hasta que sea legible y extensible.
 
 Puede ser utilizado con el desarrollo guiado por pruebas, y forma parte de la estrategia global del desarrollo ágil de software y desarrollo adaptativo de software.
-## Conceptos
+## Definiciones SOLID
 
 - (S)Single Responsibility Principle:principio de responsabilidad única	
   - "una clase, componente o servicio debe ser responsable de una sola cosa."
@@ -34,4 +34,4 @@ Puede ser utilizado con el desarrollo guiado por pruebas, y forma parte de la es
   
 ## Conceptos
 
-[Estructura](https://github.com/AAtlantica/SOLID/blob/main/conceptos.md)  
+- [Estructura](https://github.com/AAtlantica/SOLID/blob/main/conceptos.md)  
