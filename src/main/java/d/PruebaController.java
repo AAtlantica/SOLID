@@ -6,6 +6,12 @@ public class PruebaController {
         empleadoDTO.setNombre("Mauricio");
         empleadoDTO.setApellido("Lopez");
 
+        //No trabajar con concreciones sino con....
+        /*EmpleadoServiceImpl empleadoServiceImpl = new EmpleadoServiceImpl();
+        EmpleadoDTO empleadoGuardado = empleadoServiceImpl.guardarEmpleado(empleadoDTO);
+        */
+
+        //...abstracciones
         EmpleadoServicio empleadoServicio = new EmpleadoServicioImpl();
 
         guardarEmpleado(empleadoServicio, empleadoDTO);
