@@ -35,3 +35,5 @@ Puede ser utilizado con el desarrollo guiado por pruebas, y forma parte de la es
 ## Conceptos
 
 - [Estructura](https://github.com/AAtlantica/SOLID/blob/main/conceptos.md)  
+- [Las 3 I](https://github.com/AAtlantica/SOLID/blob/main/lastresi.md)  
+  
