@@ -22,7 +22,7 @@ https://medium.com/@ricardo.zelaya/principio-de-inversi%C3%B3n-de-dependencias-d
 
 # Inversion de Control
 
-- Forma Tradicional: el programar es el encargado de definir la secuencia de operaciones que se deben de realizar para llegar a un resultado.
+- Forma Tradicional: el programados es el encargado de definir la secuencia de operaciones que se deben de realizar para llegar a un resultado.
 ## Gráficamente
 
 ![IC](https://oscarblancarteblog.com/wp-content/uploads/2016/11/InversionOfControl.png)
