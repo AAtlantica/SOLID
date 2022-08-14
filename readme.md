@@ -26,7 +26,7 @@ Puede ser utilizado con el desarrollo guiado por pruebas, y forma parte de la es
   - Al hacerlo, podemos asegurarnos de que las clases de implementación solo necesitan preocuparse por los métodos que les interesan.
   - Una clase no debe depender de una interfaz que no va a utilizar.
 
-- (D)Dependency inversión, inversión de dependencias	
+- (D)Dependency inversión, inversión de dependencias:	
   - “depender de abstracciones, no depender de implementaciones”	
   - Se refiere al desacoplamiento de módulos de software.	
   - Las dependencias se deben de abstraer y que un módulo de alto nivel no deben depender de un módulo de bajo nivel, ambos dependerán de abstracciones. 	
