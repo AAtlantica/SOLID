@@ -1,5 +1,6 @@
 package a_estructura_final.service.impl;
 
+
 import a_estructura_final.dto.EmpleadoDTO;
 import a_estructura_final.entities.EmpleadoEntity;
 import a_estructura_final.mapper.EmpleadoMapper;
@@ -7,8 +8,19 @@ import a_estructura_final.repository.EmpleadoRepository;
 import a_estructura_final.service.EmpleadoServicio;
 
 public class EmpleadoServicioImpl implements EmpleadoServicio {
-    EmpleadoRepository empleadoRepository = new EmpleadoRepository();
-    EmpleadoMapper empleadoMapper = new EmpleadoMapper();
+
+    private final EmpleadoMapper empleadoMapper;
+    private final EmpleadoRepository empleadoRepository;
+    public EmpleadoServicioImpl(EmpleadoMapper empleadoMapper,
+                                EmpleadoRepository empleadoRepository){
+        this.empleadoMapper = empleadoMapper;
+        this.empleadoRepository = empleadoRepository;
+
+    }
+
+    //EmpleadoMapper empleadoMapper = new EmpleadoMapper();
+    //EmpleadoRepository empleadoRepository = new EmpleadoRepository();
+
 
     @Override
     public void guadarEmpleado(EmpleadoDTO empleadoDTO) {
