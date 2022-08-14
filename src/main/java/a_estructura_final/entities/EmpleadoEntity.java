@@ -19,7 +19,7 @@ public class EmpleadoEntity {
     }
     @Override
     public String toString() {
-        return "incorrecto.EmpleadoEntity{" +
+        return "EmpleadoEntity{" +
                 "nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
                 '}';
