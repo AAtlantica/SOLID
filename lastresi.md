@@ -22,7 +22,7 @@ https://medium.com/@ricardo.zelaya/principio-de-inversi%C3%B3n-de-dependencias-d
 
 # Inversion de Control
 
-- Forma Tradicional: el programados es el encargado de definir la secuencia de operaciones que se deben de realizar para llegar a un resultado.
+- Forma Tradicional: el programador es el encargado de definir la secuencia de operaciones que se deben de realizar para llegar a un resultado.
 ## Gráficamente
 
 ![IC](https://oscarblancarteblog.com/wp-content/uploads/2016/11/InversionOfControl.png)
@@ -31,7 +31,8 @@ https://medium.com/@ricardo.zelaya/principio-de-inversi%C3%B3n-de-dependencias-d
 
 ![IC](https://oscarblancarteblog.com/wp-content/uploads/2016/11/InversionOfControl2.png)
 
--IoC se basa en la introspección (en Java llamado Reflection) el cual es un procedimiento por el cual leemos metadatos de la App que nos permita entender cómo funciona, los metadatos pueden estar expresados principalmente de dos formas, la primera es mediante archivos de configuración como XML o con metadados directamente definidos sobre las clases de nuestro programa, en Java estos metadatos son las @Annotations o anotaciones y es por medio de estos metadatos y con técnicas de introspección que es posible entender el funcionamiento de la App
+-IoC se basa en la introspección (en Java llamado Reflection) el cual es un procedimiento por el cual leemos metadatos de la App que nos permita entender cómo funciona, los metadatos pueden estar expresados principalmente de dos formas, la primera es mediante archivos de configuración como XML o con metadados directamente definidos sobre las clases de nuestro programa, en Java estos metadatos son las @Annotations o anotaciones y es por medio de estos metadatos y con técnicas de introspección que es posible entender el funcionamiento de la App.
+
 https://www.oscarblancarteblog.com/2016/12/01/concepto-inversion-of-control/
 
 # Inyeccion de dependencia
